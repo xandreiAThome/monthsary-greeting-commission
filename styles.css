@@ -167,26 +167,26 @@ body {
 }
 
 .heart-pic {
-  width: 300px;
+  width: clamp(200px, 20vw, 400px);
   position: absolute;
   top: 0;
 }
 
 .pic-one {
   left: 10px;
-  height: 200px;
+  height: clamp(164px, 15vw, 264px);
   position: relative;
   z-index: 1;
   transform: rotate(-20deg);
 }
 
 .pic-two {
-  width: 186px;
-  margin-top: 124px;
+  width: clamp(164px, 15vw, 264px);
+  margin-top: clamp(72px, 10vw, 136px);
 }
 
 .pic-three {
-  height: 200px;
+  height: clamp(164px, 15vw, 264px);
   position: relative;
   transform: rotate(20deg);
   right: 10px;
